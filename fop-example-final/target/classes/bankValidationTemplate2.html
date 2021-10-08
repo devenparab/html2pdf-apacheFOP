@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="IE=edge">
+      <meta http-equiv="cache-control" content="no-cache">
+      <meta http-equiv="expires" content="0">
+      <meta http-equiv="pragma" content="no-cache">
+      <meta name="viewport" content="width=device-width,initial-scale=1"/>
+      <meta name="theme-color" content="#000000">
+      <title>Bank Validation Report</title>
+	  <style>
+	    #app {
+		  width:100%;
+		  align-items:center;
+		  text-align:center;
+		}
+	    *{
+		  padding:0px;
+		  margin:0px;
+		}
+	    .report-title {
+		   background: #cccccc4d;
+           color: #000;
+           align-items: center;
+           text-align: left;
+		   padding:20px;
+		   font-size: 15px;
+		   font-weight: 600
+		}
+		.category-Header {
+		  text-align:left;
+		  padding:10px 0px;
+		  color:#50484a;
+		  font-weight: 600;
+		  padding-left: 8px;
+		}
+		.Headers-table td {
+		   width:31%;
+		   font-size: 15px;
+		   pdding-left: 8px;
+
+		}
+		.classification-table{
+		   width:100%;
+		   color:#414343;
+
+		}
+		.classification-table td{
+           padding-top: 3px;
+		   padding-bottom: 3px;
+
+		}
+		.Outstanding-table td {
+		   width:11.1%;
+		}
+		.Outstanding-table{
+		   border-collapse: collapse;
+		}
+		.Outstanding-table th {
+		   width:11.1%;
+		   color:#424855;
+		   padding-top: 3px;
+		   padding-bottom: 3px;
+		}
+		.Outstanding-table  thead tr th, td{
+			 padding: 8px 8px;
+		}
+		.Headers-table tr td:nth-child(odd){
+           font-weight:700;
+
+	    }
+
+		.Headers-table-container {
+		  padding:15px;
+		  color:#4f4745;
+		  background:#FFF;
+		  text-align:left;
+
+		}
+		.Headers-table td {
+		  padding:5px 8px;
+		}
+
+		.undpaid-classification-table-container {
+		  background:#dfe8e5;
+		  padding:15px;
+		  text-align:left;
+
+		}
+		.Outstanding-table-container {
+		   background:#FFF;
+		   padding: 15px 15px 0px 15px;
+		   text-align:left;
+		}
+		.Outstanding-table {
+		   width:100%;
+		   //border:1px solid #CCC;
+		}
+
+		.Outstanding-table thead{
+		   border-top:2px solid #CCC;
+		   border-bottom:2px solid #CCC;
+		}
+		.Outstanding-table tbody tr{
+		   border-bottom:1px solid #CCC;
+		}
+		.outStanding-Header {
+		   text-align:left;
+		  padding:10px 0px;
+		  color:#50484a;
+		  font-weight: 600;
+		  padding-left: 8px;
+		}
+		.category-footer {
+		  text-align:left;
+		  padding-left: 8px;
+		  padding-top:10px;
+		  padding-bottom:10px;
+		  background:#dfe8e5;
+		  border-bottom:1px solid #CCC;
+		  border-top:1px solid #CCC;
+		}
+		.narration{
+			color:red;
+			width:19.1% !important;
+		}
+		.aging{
+			width:7% !important;
+		}
+	  </style>
+	</head>
+   <body>
+     <div id="app">
+	    <div class="report-title">BANK Statement:Wolforth Captial Funds: GB17EB CL5170416 2311881</div>
+		<div class='Headers-table-container'>
+		  <table class='Headers-table'>
+    <tr>
+    <td>Reconciliation Date</td>
+    <td>20/03/2020</td>
+    <td>Total of Sub-Categories</td>
+	<td>5,385.47</td>
+  </tr>
+  <tr>
+    <td>Opening Balance</td>
+    <td>1 002 123.24</td>
+    <td>Comparison (Closing Bal - Categories Total)</td>
+	<td>996,737.77</td>
+  </tr>
+   <tr>
+    <td>Closing Balance</td>
+	<td>1 002 123.24</td>
+    
+  </tr>
+   
+</table>
+		 </div>
+		<div class="undpaid-classification-table-container">
+		   <div class="category-Header">
+		      Totals of:
+		   </div>
+		     <table class='classification-table'>
+ 
+  <tr>
+    <td>ADL</td>
+    <td>100.00</td>
+    <td>AGR-REP</td>
+	<td>0.00</td>
+	<td>AGR-SALE</td>
+    <td>0.00</td>
+    <td>ASL </td>
+	<td>0.00</td>
+  </tr>
+  <tr>
+    <td>ADL</td>
+    <td>100.00</td>
+    <td>AGR-REP</td>
+	<td>0.00</td>
+	<td>AGR-SALE</td>
+    <td>0.00</td>
+    <td>ASL </td>
+	<td>0.00</td>
+  </tr>
+  <tr>
+    <td>ADL</td>
+    <td>100.00</td>
+    <td>AGR-REP</td>
+	<td>0.00</td>
+	<td>AGR-SALE</td>
+    <td>0.00</td>
+    <td>ASL </td>
+	<td>0.00</td>
+  </tr>
+  <tr>
+    <td>ADL</td>
+    <td>100.00</td>
+    <td>AGR-REP</td>
+	<td>0.00</td>
+	<td>AGR-SALE</td>
+    <td>0.00</td>
+    <td>ASL </td>
+	<td>0.00</td>
+  </tr>
+  
+</table>
+		</div>
+		<div class="Outstanding-table-container">
+		   <div class="outStanding-Header">
+		      ADL Outstanding - Awaiting Funding:
+		   </div>
+		     <table class='Outstanding-table'>
+  <thead>
+  <tr>
+    <th>Transaction Ref</td>
+    <th>Register Account</td>
+    <th>Funds Code</td>
+	<th>Trade Date</th>
+    <th>Value Date </th>
+    <th class="aging">Amount</th>
+	<th>Currency</th>
+	<th class="aging">Aging</th>
+	<th class="narration" >Narration</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>ADL</td>
+    <td>100.00</td>
+    <td>AGR-REP</td>
+	<td>0.00</td>
+	<td>AGR-SALE</td>
+    <td class="aging">0.00</td>
+    <td>ASL </td>
+	<td class="aging">0.00</td>
+	<td class="narration">Outstanding due to bank reference</td>
+  </tr>
+  <tr>
+    <td>ADL</td>
+    <td>100.00</td>
+    <td>AGR-REP</td>
+	<td>0.00</td>
+	<td>AGR-SALE</td>
+    <td class="aging">0.00</td>
+    <td>ASL </td>
+	<td class="aging">0.00</td>
+  </tr>
+  <tr>
+    <td>ADL</td>
+    <td>100.00</td>
+    <td>AGR-REP</td>
+	<td>0.00</td>
+	<td>AGR-SALE</td>
+    <td class="aging">0.00</td>
+    <td>ASL </td>
+	<td class="aging">0.00</td>
+  </tr>
+  </tbody>
+  </table>
+  <div class="category-footer">
+		Total ADL Outstanding - Awaiting Funding
+  </div>
+  
+		</div>
+		
+	 </div>
+	 
+   </body>
+</html>
